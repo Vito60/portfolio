@@ -11,7 +11,8 @@ class App extends Component {
         <div style={{backgroundImage: `url(${ProgrammingImage})`,
         backgroundRepeat: 'false',
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
         }}>
           <Nav/>
           <Switch> 
