@@ -1,5 +1,8 @@
 import React from 'react';
 import AboutContent from './AboutContent'
+import ProjectsContent from './ProjectsContent'
+import ContactContent from './ContactContent'
+import IconsGrid from './IconsGrid'
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -99,10 +102,11 @@ export default function FloatingActionButtonZoom() {
             <AboutContent/>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          
+          <ProjectsContent/>
+          <IconsGrid/>
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Contact
+          <ContactContent/>
         </TabPanel>
       </SwipeableViews>
     </div>

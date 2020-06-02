@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Nav from './Nav'
 import Home from './Home'
-import ProgrammingImage from './ProgrammingImage.png'
+import ProgrammingImage from './Images/ProgrammingImage.png'
 import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
