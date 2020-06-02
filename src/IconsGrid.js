@@ -7,6 +7,7 @@ import RailsIcon from './Images/RailsIcon.png'
 import ReduxIcon from './Images/ReduxIcon.png'
 import RubyIcon from './Images/RubyIcon.png'
 import MaterialUiIcon from './Images/MaterialUiIcon.png'
+import BootsrapIcon from './Images/BootsrapIcon.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -55,6 +56,10 @@ export default function IconsGrid() {
         
             <Grid key={2} item>
                     <img src={MaterialUiIcon} alt="Material-ui" style={{maxHeight: 150, maxWidth: 150}} />
+            </Grid>
+
+            <Grid key={2} item>
+                    <img src={BootsrapIcon} alt="Bootstrap" style={{maxHeight: 150, maxWidth: 150}} />
             </Grid>
 
         </Grid>
