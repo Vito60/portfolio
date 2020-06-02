@@ -1,11 +1,22 @@
 import React, {Component} from 'react';
+import Nav from './Nav'
+import Home from './Home'
+import ProgrammingImage from './ProgrammingImage.png'
+import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
 
   render() {
       return (
-        <div >
-          <h1>Hello</h1>
+        <div style={{backgroundImage: `url(${ProgrammingImage})`,
+        backgroundRepeat: 'false',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+        }}>
+          <Nav/>
+          <Switch> 
+            <Route exact path="/" component={Home}/> 
+          </Switch>
         </div>
       )
   }
