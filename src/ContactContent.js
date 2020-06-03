@@ -6,7 +6,7 @@ export default function ContactContent() {
         <div>
             <Typography>
                 <h4>
-                    Please feel free to email me with any further questions.
+                    Please feel free to email me with any questions.
                 </h4>
                 <a href={`mailto:${"Randallw1996@gmail.com"}`}>Email</a>
                 <h4> Randallw1996@gmail.com</h4>

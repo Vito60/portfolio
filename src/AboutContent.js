@@ -6,10 +6,10 @@ export default function AboutContent() {
         <div>
             <Typography>
                 Experienced in React, Redux, JavaScript, and Rails based 
-                programming with a background in team based environments. 
-                Certified in crisis negotiating this training has provided 
-                me with strong skills in problem solving and a resilient 
-                attitude during stressful situations.  
+                programming with a background in team-based work environments. 
+                Certified in Crisis Negotiation, training during which I 
+                Developed strong problem-solving skills and a resilient 
+                attitude in stressful situations.   
             </Typography>
         </div>
     )
