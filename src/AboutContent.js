@@ -8,7 +8,7 @@ export default function AboutContent() {
                 Experienced in React, Redux, JavaScript, and Rails based 
                 programming with a background in team-based work environments. 
                 Certified in Crisis Negotiation, training during which I 
-                Developed strong problem-solving skills and a resilient 
+                developed strong problem-solving skills and a resilient 
                 attitude in stressful situations.   
             </Typography>
         </div>
